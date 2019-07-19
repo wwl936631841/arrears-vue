@@ -1,12 +1,6 @@
 import service from '@/utils/service'
-// import {arrearsPath} from '@/api/env'
-
-
-
-
 
 // 催缴
-
 export const cancelFollow = data => {
   return service({
     url: '/attention/cancelFollow/',
