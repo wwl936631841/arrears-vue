@@ -1,0 +1,350 @@
+@import './base.css';
+html, body {
+    background-color: #F5F5F5;
+    font-size: 12px;
+}
+
+#operationIndex .info {
+    margin-left:3px;
+    /*margin-top: 1rem;*/
+    display: flex;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    background-color: #fff;
+}
+
+#operationIndex .selectBtn {
+    background-color: #fff;
+}
+
+#operationIndex .selectBtn .van-button--default {
+    border-width: 0;
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+
+#operationIndex .info .img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px dotted red;*/
+    margin-right: 15px;
+}
+
+#operationIndex .info .img div {
+    width: 96px;
+    height: 72px;
+}
+
+#operationIndex .info .img .pic {
+    background-image: url('../img/operationIndex/no_pic@3x.png');
+}
+
+@media (min-resolution: 2dppx) {
+    #operationIndex .info .img .pic {
+        background-image: url("../img/operationIndex/no_pic@2x.png");
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    #operationIndex .info .img .pic {
+        background-image: url("../img/operationIndex/no_pic@3x.png");
+    }
+}
+
+#operationIndex .info .img .pic img {
+    width: 9rem;
+    height: 6rem;
+}
+
+
+#operationIndex .info .detail {
+    flex: 2;
+    /*border: 1px solid orange;*/
+    height: 90px;
+    margin-left: 15px;
+    padding-left: 0.4rem;
+    padding-top: 0.4rem;
+}
+#operationIndex .info .detail .iconContainer div:nth-child(2){
+    display:flex;
+    align-items: center;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#operationIndex .info .detail p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+#operationIndex .info .detail p:nth-child(3) {
+    color: rgba(102, 102, 102, 1);
+    font-size: 10px;
+}
+
+#operationIndex .itemContainer {
+    display: flex;
+    padding: 0 0.5rem;
+    height: 64px;
+    /*border: 1px solid black;*/
+    background-color: #fff;
+}
+
+#operationIndex .itemContainer .item {
+    flex-grow: 1;
+    padding-left: .5rem;
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+}
+
+#operationIndex .itemContainer .item p {
+    /* font-family: PingFangSC-Semibold; */
+    color:#666666;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+#operationIndex .itemContainer .item h3 {
+    margin-left: 28px;
+    font-size: 19px;
+    margin-top: 0;
+}
+
+#operationIndex .itemContainer li:nth-last-child(1) {
+    border-left: 2px solid #F5F5F5;
+}
+
+#operationIndex .itemContainer li:nth-last-child(1) h3 {
+    /*color: blue;*/
+}
+
+#operationIndex .FinanceAI, .parkingLotAI {
+    /*padding: 1rem;*/
+    /*border: 1px solid blue;*/
+    background-color: #fff;
+    margin: 4vw;
+}
+
+/*#operationIndex .FinanceAI .content {*/
+#operationIndex .content {
+    display: flex;
+    height: 70px;
+    line-height: 20px;
+    align-items: center;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+    text-overflow: ellipsis; /*  无效 */
+    /*word-space:nowrap;*/
+    /*-webkit-line-clamp: 2;*/
+    /*-webkit-box-orient: vertical;*/
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    /* 设置 display 为 -webkit-box 或者 -webkit-inline-box 时为隐藏状态 */
+    /*display: -webkit-inline-box;*/ /* 设置后button不可见 */
+}
+
+/*#operationIndex .FinanceAI .content p:nth-child(1){*/
+#operationIndex .content p:nth-child(1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    flex: 6;
+    font-size: 14px;
+    /*border: 1px solid blue;*/
+    word-space: nowrap;
+    padding: 0 12px;
+    color: #313131;
+}
+
+/*#operationIndex .FinanceAI .content .btnContainer{*/
+#operationIndex .content .btnContainer {
+    flex: 2;
+}
+
+#operationIndex .FinanceAI .content .btn {
+    text-align: center;
+}
+
+#operationIndex .FinanceAI .content .btn button {
+    text-align: center;
+}
+
+#operationIndex .FinanceAI .content .btn .van-button {
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #268AED;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.financeAndLot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.financeAndLot .van-icon {
+    /*border: 1px solid  red;*/
+    padding: 12px 5px 12px 20px;
+    font-size: 20px;
+    color: #268AED
+}
+
+.financeAndLot .title {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    padding-left: 12px
+}
+
+.financeAndLot .title p {
+    margin: 0;
+    font-size: 16px;
+    color: #313131;
+}
+
+.common {
+    display: block;
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+    /*border: 1px solid red;*/
+}
+
+#operationIndex .parkingLotAI .btn {
+    text-align: center;
+}
+
+#operationIndex .parkingLotAI .btn button {
+    border-width: 0;
+
+}
+
+
+.financeAndLot .finance {
+    background-image: url("../img/operationIndex/data _ic_cai@2x.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+@media (min-resolution: 2dppx) {
+    .financeAndLot .finance {
+        background-image: url("../img/operationIndex/data _ic_cai@2x.png");
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    .financeAndLot .finance {
+        background-image: url("../img/operationIndex/data _ic_cai@3x.png");
+    }
+}
+
+.financeAndLot .parking {
+    background-image: url("../img/operationIndex/data _ic_car@2x.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+@media (min-resolution: 2dppx) {
+    .financeAndLot .parking {
+        background-image: url("../img/operationIndex/data _ic_car@2x.png");
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    .financeAndLot .parking {
+        background-image: url("../img/operationIndex/data _ic_car@3x.png");
+    }
+}
+
+
+#operationIndex .report {
+    padding: 1rem 0.5rem;
+    /*border: 1px solid green;*/
+    margin: 2vw 2vw 8vw 2vw;
+}
+
+#operationIndex .report h4 {
+    font-size: 16px;
+    font-weight:500;
+    color:rgba(49,49,49,1);
+    margin: 0 0 2vw 0;
+    padding: 0.2rem 0;
+}
+
+#operationIndex .report .reportContainer {
+    display: flex;
+    justify-content: space-between;
+    /*margin: 0 8px;*/
+}
+#operationIndex .report .reportContainer .common{
+    /*border:1px solid red;*/
+    height: 50px;
+    background-position: center;
+}
+
+#operationIndex .report .reportItem {
+    /*border: 1px solid red;*/
+    /*flex: 1;*/
+    /*display: block;*/
+    padding: 0 0.5rem;
+    /*padding: 2vw 1vw;*/
+    width: 41vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+#operationIndex .report .reportItem p {
+    font-size: 14px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+
+#operationIndex .report .reportItem .customer {
+    background-image: url("../img/operationIndex/data _ic_myd@2x.png");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (min-resolution: 2dppx) {
+    #operationIndex .report .reportItem .customer {
+        background-image: url("../img/operationIndex/data _ic_myd@2x.png");
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    #operationIndex .report .reportItem .customer {
+        background-image: url("../img/operationIndex/data _ic_myd@3x.png");
+    }
+}
+
+#operationIndex .report .reportItem .callback {
+    background-image: url("../img/operationIndex/data _ic_wback@3x.png");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (min-resolution: 2dppx) {
+    #operationIndex .report .reportItem .callback {
+        background-image: url("../img/operationIndex/data _ic_wback@2x.png");
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    #operationIndex .report .reportItem .callback {
+        background-image: url("../img/operationIndex/data _ic_wback@3x.png");
+    }
+}
+

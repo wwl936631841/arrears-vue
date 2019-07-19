@@ -1,0 +1,314 @@
+@import './base.css';
+.splitLine{
+    height: .8rem;
+    background: rgb(245,245,245);
+    margin-top: .6rem;
+}
+#financeAI{
+    /*padding: 0 3vw;*/
+    /*border: 1px solid red;*/
+}
+#financeAI .van-nav-bar__title{
+    font-size: 17px;
+}
+#financeAI .van-nav-bar__arrow{
+    font-size: 20px;
+    color:#666666;
+    font-weight: 600;
+}
+#financeAI .firstTitle{
+    font-size: 16px;
+}
+#financeAI .collectionRate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+#financeAI .collectionRate h4{
+    color: #313131;
+}
+#financeAI .collectionRate h3{
+    margin:0;
+}
+#financeAI .collectionRate ul li{
+    display: inline-block;
+}
+#financeAI .collectionRate ul li:first-of-type{
+    margin-right: 30px;
+}
+#financeAI .collectionRate li{
+    padding: 0.2rem .4rem;
+}
+
+#collectionRate {
+    height: 30vh;
+}
+
+#financeAI .collectionRate li.active {
+    /*flex-grow: 1;*/
+    border-bottom: 3px solid #268AED;
+    /*text-align: right;*/
+    color: #268AED;
+}
+
+#financeAI .detail {
+    display: flex;
+    flex-wrap: wrap;
+}
+#financeAI .detail h4{
+    color:#666666;
+    font-size: 1rem;
+    font-weight: normal;
+}
+#financeAI .detail li strong{
+    color:#34394A;
+    font-size: 20px;
+}
+
+#financeAI .detail li {
+    /*border: 1vw solid red;*/
+    padding: 1vw 0;
+    margin: 2vh 0;
+    border-collapse: collapse;
+    width: 44vw;
+    display: flex;
+    justify-content: right;
+}
+
+#financeAI .detail li:nth-of-type(even) {
+    border-left: 1px solid #EEEEEE;
+}
+
+#financeAI .detail li div {
+    /*border: 1px solid green;*/
+    flex: 3;
+}
+
+#financeAI .detail li div h4 {
+    margin: 0 0 3px 0;
+}
+
+#financeAI .detail .item {
+    flex: 1;
+    display: block;
+    margin-left: 15px;
+    margin-top: 2px;
+    /*border: 1px solid red;*/
+    width: 26px;
+    height: 22px;
+    /*background-size: 26px 22px;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#financeAI .detail .icon_a {
+    background-image: url('../img/financeAI/icona@3x.png');
+}
+
+@media (min-resolution: 2dppx) {
+    #financeAI .detail .icon_a {
+        background-image: url('../img/financeAI/icona@2x.png');
+        /*background-size: 52px 44px;*/
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    #financeAI .detail .icon_a {
+        background-image: url('../img/financeAI/icona@3x.png');
+        /*background-size: 78px 66px;*/
+    }
+}
+
+#financeAI .detail .icon_b {
+    background-image: url('../img/financeAI/iconb@3x.png');
+}
+
+@media (min-resolution: 2dppx) {
+    #financeAI .detail .icon_b {
+        background-image: url('../img/financeAI/iconb@2x.png');
+        /*background-size: 52px 48px;*/
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    #financeAI .detail .icon_b {
+        background-image: url('../img/financeAI/iconb@3x.png');
+        /*background-size: 78px 72px;*/
+    }
+}
+
+#financeAI .detail .icon_c {
+    background-image: url('../img/financeAI/iconc@2x.png');
+    /*background-size: 26px 23px;*/
+}
+
+@media (min-resolution: 2dppx) {
+    #financeAI .detail .icon_c {
+        background-image: url('../img/financeAI/iconc@2x.png');
+        /*background-size: 52px 46px;*/
+    }
+}
+@media (min-resolution: 3dppx) {
+    #financeAI .detail .icon_c {
+        background-image: url('../img/financeAI/iconc@3x.png');
+        /*background-size: 78px 69px;*/
+    }
+}
+
+#financeAI .detail .icon_d {
+    background-image: url('../img/financeAI/icond@3x.png');
+    /*background-size: 24px 22px;*/
+}
+
+@media (min-resolution: 2dppx) {
+    #financeAI .detail .icon_d {
+        background-image: url('../img/financeAI/icond@2x.png');
+        /*background-size: 48px 44px;*/
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    #financeAI .detail .icon_d {
+        background-image: url('../img/financeAI/icond@3x.png');
+        /*background-size: 72px 66px;*/
+    }
+}
+
+#financeAI .detail .icon_e {
+    background-image: url('../img/financeAI/icone@2x.png');
+    background-size: contain;
+}
+
+/*@media (min-resolution: 2dppx) {*/
+    /*#financeAI .detail .icon_e {*/
+        /*background-image: url('../img/financeAI/icone@2x.png');*/
+        /*!*background-size: 40px 48px;*!*/
+    /*}*/
+/*}*/
+
+/*@media (min-resolution: 3dppx) {*/
+    /*#financeAI .detail .icon_e {*/
+        /*background-image: url('../img/financeAI/icone@3x.png');*/
+        /*!*background-size: 60px 72px;*!*/
+    /*}*/
+/*}*/
+
+#financeAI .detail .icon_f {
+    background-image: url('../img/financeAI/iconf@3x.png');
+    /*background-size: 24px 26px;*/
+}
+
+@media (min-resolution: 2dppx) {
+    #financeAI .detail .icon_f {
+        background-image: url('../img/financeAI/iconf@2x.png');
+        /*background-size: 48px 52px;*/
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    #financeAI .detail .icon_f {
+        background-image: url('../img/financeAI/iconf@3x.png');
+        /*background-size: 72px 78px;*/
+    }
+}
+
+#financeAI .border {
+    border: 1px solid #999
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    #financeAI .border {
+        border: 0.5px solid #999
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 3) {
+    #financeAI .border {
+        border: 0.333333px solid #999
+    }
+}
+
+
+#financeAI .btnGroup h4{
+    text-align: center;
+}
+#financeAI .btnGroup button:first-of-type{
+    border-radius: 10em 0 0 10em;
+    border-left: 1px solid #ebedf0;
+}
+#financeAI .btnGroup button:nth-child(2){
+    border-left: 1px solid #ebedf0;
+    border-right: 1px solid #ebedf0;
+}
+#financeAI .btnGroup button:last-of-type{
+    border-radius: 0 10em 10em 0;
+    border-left: 1px solid #ebedf0;
+}
+#financeAI .btnGroup button{
+    height: 34px;
+    width: 100px;
+    line-height: 32px;
+    border-top: 1px solid #ebedf0;
+    border-bottom: 1px solid #ebedf0;
+    border-left-width: 0;
+    border-right-width: 0;
+    background: rgb(255,255,255);
+    padding: 0 5px;
+}
+#financeAI .btnGroup button.active{
+    background: rgb(38,138,237);
+    border: 2px solid rgb(38,138,237);
+    color: #fff;
+}
+#chargeSituation{
+    height: 45vh;
+}
+#buildingRate{
+    height: 45vh;
+}
+
+
+
+#financeAI .AlarmAnalysis ul li{
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+.van-nav-bar__title{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

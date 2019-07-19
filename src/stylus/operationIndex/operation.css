@@ -1,0 +1,28 @@
+#operation {
+    height: 100vh;
+    background-color:#F5F5F5;
+}
+#operation .van-nav-bar__arrow{
+    font-size: 20px;
+    color:#666666;
+    font-weight: 600;
+}
+
+#operation .imgInfo {
+    margin: 88px auto;
+}
+#operation .imgInfo div{
+    width: 143px;
+    height: 142px;
+    margin: 0 auto;
+}
+#operation .imgInfo p {
+    color: #999999;
+    font-size:14px;
+    text-align:center;
+}
+
+#operation .imgInfo img {
+    width: 100%;
+    height: 100%;
+}

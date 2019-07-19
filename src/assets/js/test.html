@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 移动端适配合 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <!-- Vant样式库 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vant@1.6/lib/index.css">
+    <!-- 自定义样式表 -->
+    <!--<link rel="stylesheet" href="css/chargeRecord.css">-->
+    <!-- 引入UI库-->
+
+    <!-- https://cn.vuejs.org/ -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!--  // https://youzan.github.io/vant/#/zh-CN/intro   --->
+    <script src="https://cdn.jsdelivr.net/npm/vant@1.6/lib/vant.min.js"></script>
+
+    <!-- echarts -->
+    <!--<script src="https://cdn.bootcss.com/echarts/4.0.4/echarts-en.common.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.0.4/echarts-en.common.min.js"></script>
+    <!--https://cdnjs.cloudflare.com/ajax/libs/echarts/4.0.4/echarts-en.common.min.js-->
+
+
+    <!-- ECharts单文件引入 -->
+    <!--<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>-->
+    <!--<script src="vendor/echarts.js"></script>-->
+
+    <!-- 网络请求基础 -->
+    <script src="base.js"></script>
+    <!-- ajax库  // https://www.npmjs.com/package/axios  -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<style>
+    #testImg{
+        height: 300px;
+        border:1px solid red;
+        position:relative;
+      /*background-image: url("../operationIndex/error/empty@2x.png");*/
+    }
+</style>
+</head>
+<body>
+<div>
+    <van-nav-bar title="停车场AI分析" left-text="返回" left-arrow></van-nav-bar>
+</div>
+
+<div id="testImg">
+
+</div>
+
+
+<script>
+    // var u = navigator.userAgent, app = navigator.appVersion;
+    //
+    // var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+    // var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    //
+    // if (isiOS) {
+    //     console.info('ios style change')
+    //     var className = document.body.className
+    //     className = className.concat('body_ios')
+    // }else{
+    //     console.log('ssdfsd')
+    // }
+    let dom = document.getElementById('testImg')
+    // SetErrorStyle(dom)
+    // SetEmptyStyle(dom)
+
+
+    function SetErrorStyle(dom) {
+      console.info('error banner dom',dom)
+      dom.style.border = '1px solid red'
+      dom.style.backgroundImage = 'url(../../assets/operationIndex/error/empty@2x.png)'
+      dom.style.backgroundRepeat = 'no-repeat'
+      dom.style.backgroundSize = '129px 128px'
+      dom.style.backgroundPosition = 'center center'
+      return
+    }
+
+    SetErrorStyle(dom)
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

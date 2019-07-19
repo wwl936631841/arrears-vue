@@ -1,0 +1,389 @@
+@import './base.css';
+#parkingLotAI .van-nav-bar__title{
+    font-size: 17px;
+}
+#parkingLotAI .van-panel__header{
+    background-color: #EEEEEE;
+}
+.splitLine {
+    height: .6rem;
+    background: #EEEEEE;
+    /*margin-top: .6rem;*/
+}
+#parkingLotAI .van-nav-bar__arrow{
+    font-size: 20px;
+    color:#666666;
+    font-weight: 600;
+}
+#parkingLotAI header {
+    /*border: 1px solid red;*/
+    display: flex;
+    padding: 5px 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#parkingLotAI .van-cell__title span {
+    color: rgba(3, 3, 3, 1);
+    font-size: 16px;
+    /*font-family: PingFangSC-Medium;*/
+    font-weight: bold;
+}
+
+#parkingLotAI header .van-icon {
+    padding: 5px 10px;
+    flex: 1;
+    cursor: pointer;
+}
+
+#parkingLotAI header label {
+    flex: 2
+}
+
+#parkingLotAI .basicData {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EEEEEE;
+}
+
+#parkingLotAI .basicData li {
+    border: 1vw solid #fff;
+    padding: 4vw 0;
+    border-collapse: collapse;
+    width: 47.3vw;
+    display: flex;
+    justify-content: right;
+    margin-left: 5px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+#parkingLotAI .basicData li:nth-child(1){
+    margin-left: 0;
+}
+#parkingLotAI .basicData li:nth-child(3){
+    margin-left:0;
+}
+
+#parkingLotAI .basicData li div {
+    /*border: 1px solid green;*/
+    flex: 3;
+}
+
+#parkingLotAI .basicData li div h4 {
+    margin: 5px 0;
+    font-weight: 500;
+    color: #666;
+}
+
+#parkingLotAI .basicData .item {
+    flex: 1;
+    display: block;
+    margin-left: 15px;
+    margin-top: 2px;
+    /*border: 1px solid red;*/
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+}
+#parkingLotAI .basicData li h4{
+    font-size: 14px;
+}
+#parkingLotAI .basicData li strong{
+    font-size: 20px;
+}
+
+#parkingLotAI .basicData .icon_park {
+    background-image: url('../img/parkingLotAI/icon_park@2x.png');
+}
+
+@media (min-resolution: 2dppx) {
+    #parkingLotAI .basicData .icon_park {
+        background-image: url('../img/parkingLotAI/icon_park@2x.png');
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    #parkingLotAI .basicData .icon_park {
+        background-image: url('../img/parkingLotAI/icon_park@3x.png');
+    }
+}
+
+#parkingLotAI .basicData .icon_card {
+    background-image: url('../img/parkingLotAI/icon_card@2x.png');
+}
+
+@media (min-resolution: 2dppx) {
+    #parkingLotAI .basicData .icon_card {
+        background-image: url('../img/parkingLotAI/icon_card@2x.png');
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    #parkingLotAI .basicData .icon_card {
+        background-image: url('../img/parkingLotAI/icon_card@3x.png');
+    }
+}
+
+#parkingLotAI .basicData .icon_minput {
+    background-image: url('../img/parkingLotAI/icon_minput@2x.png');
+}
+
+@media (min-resolution: 2dppx) {
+    #parkingLotAI .basicData .icon_minput {
+        background-image: url('../img/parkingLotAI/icon_minput@2x.png');
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    #parkingLotAI .basicData .icon_minput {
+        background-image: url('../img/parkingLotAI/icon_minput@3x.png');
+    }
+}
+
+#parkingLotAI .basicData .icon_total_b {
+    background-image: url('../img/parkingLotAI/icon_total_b@2x.png');
+}
+
+@media (min-resolution: 2dppx) {
+    #parkingLotAI .basicData .icon_total_b {
+        background-image: url('../img/parkingLotAI/icon_total_b@2x.png');
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    #parkingLotAI .basicData .icon_total_b {
+        background-image: url('../img/parkingLotAI/icon_total_b@3x.png');
+    }
+}
+
+
+.exception .exceptionHead {
+    /*border: 1px solid red;*/
+    margin: 1rem;
+}
+
+.exception .exceptionHead a {
+    display: inline-block;
+    padding: 0.1rem .3rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.exception .exceptionHead a:visited {
+    border-bottom: 2px solid green;
+}
+
+.exception .exceptionHead a:link {
+    color: blue;
+}
+
+.exception .exceptionHead a.active {
+    border-bottom: 3px solid #268AED;
+    color: #268AED;
+}
+
+.exception .btnGroup {
+
+}
+
+.exception .totalInfo {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 20px;
+}
+
+.exception .totalInfo div {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: .5rem;
+}
+.exception .totalInfo div span:nth-child(3){
+    color: #313131;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.exception .totalInfo div:nth-child(2) {
+    justify-content: flex-end;
+}
+
+.exception .totalInfo div span {
+    color: #666666;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.exception .btnGroup button:first-of-type {
+    border-radius: 10em 0 0 10em;
+    border-left: 1px solid #ebedf0;
+}
+
+.exception .btnGroup button:nth-child(2) {
+    border-left: 1px solid #ebedf0;
+    border-right: 1px solid #ebedf0;
+}
+
+.exception .btnGroup button:last-of-type {
+    border-radius: 0 10em 10em 0;
+    border-right: 1px solid #ebedf0;
+}
+
+.exception .btnGroup button {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 34px;
+    line-height: 32px;
+    border-top: 1px solid #ebedf0;
+    border-bottom: 1px solid #ebedf0;
+    border-left-width: 0;
+    border-right-width: 0;
+    background: rgb(255, 255, 255);
+    padding: 0 5px;
+    position: relative;
+    padding-left: 24px;
+}
+
+.exception .btnGroup button.active {
+    background: rgb(38, 138, 237);
+    border: 2px solid rgb(38, 138, 237);
+    color: #fff;
+}
+
+.exception .btnGroup .icon {
+    display: inline-block;
+    margin-right: 5px;
+    width: 16px;
+    height: 15px;
+    /*border: 1px solid red;*/
+    background-size: 16px 15px;
+    background-repeat: no-repeat;
+    /*position: relative;*/
+    /*right: 5px;*/
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* margin-left: -35px; */
+}
+.exception .btnGroup .text {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.exception .exceptionInfo {
+    margin: 1rem;
+}
+
+.exception .btnGroup .icon_m_l {
+    background-image: url("../img/parkingLotAI/icon_m_l_s@2x.png");
+}
+.exception .btnGroup .active .subActiveMoney{                          /*  money */
+    background-image: url("../img/parkingLotAI/icon_m_l_s@2x.png");
+}
+.exception .btnGroup .icon_m_l.subActive {
+    background-image: url("../img/parkingLotAI/icon_m_l@2x.png");
+}
+@media (min-resolution: 2dppx) {
+    .exception .btnGroup .icon_m_l {
+        background-image: url('../img/parkingLotAI/icon_m_l_s@2x.png');
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    .exception .btnGroup .icon_m_l {
+        background-image: url('../img/parkingLotAI/icon_m_l_s@2x.png');
+    }
+}
+
+.exception .btnGroup .icon_n_r_s {
+    background-image: url("../img/parkingLotAI/icon_n_r_s@2x.png");
+}
+.exception .btnGroup .subActiveAmount {
+    background-image: url("../img/parkingLotAI/icon_m_r@2x.png");     /*  amount */
+}
+.exception .btnGroup .icon_n_r_s.subActive {
+    background-image: url("../img/parkingLotAI/icon_m_r@2x.png");     /*  amount */
+}
+@media (min-resolution: 2dppx) {
+    .exception .btnGroup .icon_n_r_s {
+        background-image: url('../img/parkingLotAI/icon_n_r_s@2x.png');
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    .exception .btnGroup .icon_n_r_s {
+        background-image: url('../img/parkingLotAI/icon_n_r_s@3x.png');
+    }
+}
+
+
+#money {
+    height: 48vh;
+    /*border: 1px solid red;*/
+    border-bottom: 1px solid #EEEEEE;
+    margin: 0 4vw;
+}
+
+#amount {
+    height: 45vh;
+}
+
+#inAndOutSituation {
+    height: 45vh;
+}
+
+#chargeSituation {
+    height: 45vh;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#parkingUseRate {
+    height: 45vh;
+}
+
+.alarmInfo {
+    margin: 1rem;
+}
+
+.alarmInfo ul li {
+    padding: 4px 0px;
+    line-height: 25px;
+    color: #666;
+    font-size: 14px;
+}
+#parkingLotAI .firstTitle{
+    color: #030303;
+    font-size: 16px;
+    font-family:PingFangSC-Medium;
+    font-weight:600;
+}
+.van-nav-bar__title{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

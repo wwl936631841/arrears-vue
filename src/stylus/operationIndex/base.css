@@ -1,0 +1,45 @@
+
+/* reset css  */
+html,body{
+    font-family: -apple-system, "PingFang SC", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+
+
+/*  ios android   */
+.body_ios {
+    padding: 2em 0 0;
+    border: 1px solid red;
+}
+.body_android{
+    /*border: 1px solid blue;*/
+}
+
+.border-1px{
+    position: relative;
+}
+.border-1px::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 1px solid #EEEEEE;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2){
+    .border-1px::after{
+    	-webkit-transform: scaleY(0.5);
+      -moz-transform: scaleY(0.5);
+      -ms-transform: scaleY(0.5);
+      -o-transform: scaleY(0.5);
+      transform: scaleY(0.5);
+    }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 3){
+	.border-1px::after{
+		-webkit-transform: scaleY(0.3);
+		-moz-transform: scaleY(0.3);
+		-ms-transform: scaleY(0.3);
+		-o-transform: scaleY(0.3);
+		transform: scaleY(0.3);
+	}
+}

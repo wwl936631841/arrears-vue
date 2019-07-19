@@ -1,0 +1,133 @@
+main{
+            // margin-top .1rem;
+            .message{
+                li{
+                    // margin-bottom: .1rem;
+                    // height 1.5rem;
+                    background-color #fff
+                    padding .14rem .17rem .13rem .2rem;
+                    box-sizing: border-box;
+                    .status{
+                        display flex;
+                        height .34rem;
+                        justify-content: space-between;
+                        .left{
+                            display: flex;
+                            .customName{
+                                text-overflow ellipsis
+                                overflow hidden
+                                white-space nowrap
+                                max-width 1.6rem
+                                font-size .17rem;
+                                color #333
+                                
+                            }
+                            .followStatus{
+                                width .56rem;
+                                height .24rem;
+                                position relative;
+                                line-height .24rem;
+                                text-align center;
+                                margin-left .08rem
+                                .yes,.no{
+                                    font-size .12rem;
+                                    position: absolute;
+                                    width: 100%;
+                                    left: 0;
+                                }
+                                .yes{
+                                    border 1px solid #ccc;
+                                    border-radius .04rem;
+                                    color #444;
+                                    img{
+                                        width: .1rem;
+                                    }
+                                    
+                                }
+                                .no{
+                                    border 1px solid #268AED;
+                                    border-radius .04rem;
+                                    color #268AED;
+                                }
+                            }
+                        }
+                        .right{
+                            font-size .14rem;
+                            .yes{
+                                color #444
+                            }
+                            .no{
+                                color #268AED
+                            }
+                        }
+                    }
+                    .price{
+                        display flex
+                        height .22rem;
+                        line-height .22rem;
+                        >div{
+                            margin-left .05rem
+                        }
+                        span{
+                            color #268AED;
+                            font-size .16rem;
+                        }
+                        i{
+                            font-size: 0.1rem;
+                            color: #666;
+                            font-style: normal;
+                            border: 1px solid #ddd;
+                            border-radius: 3px;
+                            background-color: #ddd;
+                            line-height: .16rem;
+                            height: .14rem;
+                            margin-left: 5px;
+                            margin-top: 0.03rem;
+                        }
+                    }
+                    .tip{
+                        display flex;
+                        height : .18rem;
+                        line-height : .18rem;
+                        padding .07rem 0 .11rem 0;
+                        img{
+                            width : .14rem;
+                            height : .14rem;
+                            margin: 0.02rem .06rem 0 0;
+                        }
+                        span{
+                            color #4C5F6C;
+                            font-size .12rem;
+                        }
+                    }
+                    .add{
+                        margin-top: .1rem;
+                        display flex;
+                        justify-content : space-between;
+                            line-height .2rem
+                        .left{
+                            font-size .12rem;
+                            max-width 2.23rem;
+                            img{
+                                width .12rem;
+                                height .15rem;
+                                vertical-align: middle;
+                            }
+                        }
+                        .right{
+                            .success,.failed{
+                                font-size .14rem;
+                                display: flex;
+                                align-items: center;
+                                img{
+                                    width .16rem; 
+                                    height .16rem;
+                                    margin-right 4px
+                                    // vertical-align: middle;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
