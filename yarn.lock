@@ -52,10 +52,10 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
-"@babel/runtime@^7.4.2":
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.3.tgz#79888e452034223ad9609187a0ad1fe0d2ad4bdc"
-  integrity sha512-9lsJwJLxDh/T3Q3SZszfWOTkk3pHbkmH+3KY+zwIDmsNlxsumuhS2TH3NIpktU4kNvfzy+k3eLT7aTJSPTo0OA==
+"@babel/runtime@7.x":
+  version "7.7.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.2.tgz#111a78002a5c25fc8e3361bedc9529c696b85a6a"
+  integrity sha512-JONRbXbTXc9WQE2mAZd1p0Z3DZ/6vaQIkgYMSTP3KjRCyd7rCZCcfhCyX+YjwcKxcZ82UrxbRD358bpExNgrjw==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -135,15 +135,15 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.45.tgz#4c49ba34106bc7dced77ff6bae8eb6543cde8351"
   integrity sha512-tGVTbA+i3qfXsLbq9rEq/hezaHY55QxQLeXQL2ejNgFAxxrgu8eMmYIOsRcl7hN1uTLVsKOOYacV/rcJM3sfgQ==
 
-"@vant/icons@1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@vant/icons/-/icons-1.1.4.tgz#9bb662520d426e5f6a5058b854745b9d3e0bc4d0"
-  integrity sha512-SwSUcMZCNmDkJQ+i9Z/IIhO1OOJIiswT31OnCnzTn6vNuuP6onTrQSRxf5EnhkruFRQicIXJ1keiwuJqk1qvCg==
+"@vant/icons@1.1.13":
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/@vant/icons/-/icons-1.1.13.tgz#ea77298f4f2b19ccc761005068a2c7436098e4d4"
+  integrity sha512-r2EoKDQ4Xh82fo5jVY/m/+LZFfRhHp+ViagySExzlJ7t6JFtmK1OqB6HdFkXXbfEzB/48BvGoPVifFoYzke6KQ==
 
-"@vue/babel-helper-vue-jsx-merge-props@^1.0.0-beta.3":
-  version "1.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.0.0-beta.3.tgz#e4c2e7125b3e0d2a9d493e457850b2abb0fd3cad"
-  integrity sha512-cbFQnd3dDPsfWuxbWW2phynX2zsckwC4GfAkcE1QH1lZL2ZAD2V97xY3BmvTowMkjeFObRKQt1P3KKA6AoB0hQ==
+"@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.0.0.tgz#048fe579958da408fb7a8b2a3ec050b50a661040"
+  integrity sha512-6tyf5Cqm4m6v7buITuwS+jHzPlIPxbFzEhXR5JGZpbrvOcp1hiQKckd305/3C7C36wFekNTQSxAtgeM0j0yoUw==
 
 abbrev@1:
   version "1.1.1"
@@ -1695,7 +1695,7 @@ chalk@^1.0.0, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.1:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -6032,7 +6032,7 @@ object-assign@4.1.0:
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.0.tgz#7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0"
   integrity sha1-ejs9DpgGPUP0wD8uiubNUahog6A=
 
-object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
+object-assign@>=4.0.1, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -6823,6 +6823,14 @@ postcss-ordered-values@^2.1.0:
     postcss "^5.0.4"
     postcss-value-parser "^3.0.1"
 
+postcss-px-to-viewport@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/postcss-px-to-viewport/-/postcss-px-to-viewport-1.1.1.tgz#a25ca410b553c9892cc8b525cc710da47bf1aa55"
+  integrity sha512-2x9oGnBms+e0cYtBJOZdlwrFg/mLR4P1g2IFu7jYKvnqnH/HLhoKyareW2Q/x4sg0BgklHlP1qeWo2oCyPm8FQ==
+  dependencies:
+    object-assign ">=4.0.1"
+    postcss ">=5.0.2"
+
 postcss-reduce-idents@^2.2.2:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/postcss-reduce-idents/-/postcss-reduce-idents-2.4.0.tgz#c2c6d20cc958284f6abfbe63f7609bf409059ad3"
@@ -6899,6 +6907,15 @@ postcss-zindex@^2.0.1:
     has "^1.0.1"
     postcss "^5.0.4"
     uniqs "^2.0.0"
+
+postcss@>=5.0.2:
+  version "7.0.23"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.23.tgz#9f9759fad661b15964f3cfc3140f66f1e05eadc1"
+  integrity sha512-hOlMf3ouRIFXD+j2VJecwssTwbvsPGJVMzupptg+85WA+i7MwyrydmQAgY3R+m0Bc0exunhbJmijy8u8+vufuQ==
+  dependencies:
+    chalk "^2.4.2"
+    source-map "^0.6.1"
+    supports-color "^6.1.0"
 
 postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.6, postcss@^5.0.8, postcss@^5.2.16:
   version "5.2.18"
@@ -8270,6 +8287,13 @@ supports-color@^5.1.0, supports-color@^5.3.0, supports-color@^5.4.0:
   dependencies:
     has-flag "^3.0.0"
 
+supports-color@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-6.1.0.tgz#0764abc69c63d5ac842dd4867e8d025e880df8f3"
+  integrity sha512-qe1jfm1Mg7Nq/NSh6XE24gPXROEVsWHxC1LIx//XNlD9iw7YZQGjZNjYN7xGaEG6iKdA8EtNFW6R0gjnVXp+wQ==
+  dependencies:
+    has-flag "^3.0.0"
+
 svgo@^0.7.0:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-0.7.2.tgz#9f5772413952135c6fefbf40afe6a4faa88b4bb5"
@@ -8726,14 +8750,14 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vant@^1.6.11:
-  version "1.6.12"
-  resolved "https://registry.yarnpkg.com/vant/-/vant-1.6.12.tgz#5183baab9594a59099b336d91d994cc1816e2621"
-  integrity sha512-CQ1p6NxkCZ/B7GxAfhV64E9WW9rOIGsdQ8qJGlTNJjdjvWoEa16N+s971ePgLL1Xmj7RWqAIpECS6KbVJdkB5w==
+vant@^2.1.8:
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/vant/-/vant-2.1.8.tgz#38cb5ac8cf6a78805ece57d4b278584f7d13cd47"
+  integrity sha512-mF0ivFVfbErsEtTYqDt2URNXRZi6JpOwPI+0WFgjRP23cktrew6cScuaqy3pEYXfJqxLgMwk2ehzCHat67x0XA==
   dependencies:
-    "@babel/runtime" "^7.4.2"
-    "@vant/icons" "1.1.4"
-    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0-beta.3"
+    "@babel/runtime" "7.x"
+    "@vant/icons" "1.1.13"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
     vue-lazyload "1.2.3"
 
 vary@~1.1.2:
